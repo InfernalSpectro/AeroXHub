@@ -1,5 +1,7 @@
 local fluxLoaded = true
 if fluxLoaded == true then
+	local gui = game.CoreGui:FindFirstChild(FluxLib)
+	gui:Destroy
 	
      	
 end
