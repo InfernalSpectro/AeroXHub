@@ -3,8 +3,10 @@ if fluxLoaded == true then
 	local gui = game.CoreGui:FindFirstChild(FluxLib)
 	gui:Destroy
 	
-     	
+else
+	
 end
+function LoadFluxUSLibX
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
 
@@ -2755,3 +2757,4 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	return Tabs
 end
 return Flux
+end
