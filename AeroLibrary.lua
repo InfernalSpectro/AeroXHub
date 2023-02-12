@@ -1,5 +1,11 @@
+local fluxLoaded = true
+if fluxLoaded == true then
+	
+     	
+end
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
+
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -186,7 +192,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	
 	MakeDraggable(Drag,MainFrame)
 	MakeDraggable(LeftFrame,MainFrame)
-	MainFrame:TweenSize(UDim2.new(0, 706, 0, 484), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+	MainFrame:TweenSize(UDim2.new(0, 406, 0, 384), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 	
 	local uitoggled = false
 	UserInputService.InputBegan:Connect(
